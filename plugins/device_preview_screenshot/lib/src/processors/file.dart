@@ -15,10 +15,7 @@ ScreenshotProcessor screenshotAsFiles(Directory directory) {
       switch (screenshot.format) {
         case ImageByteFormat.png:
           return '.png';
-        case ImageByteFormat.rawUnmodified:
-        case ImageByteFormat.rawRgba:
-        case ImageByteFormat.rawStraightRgba:
-        case ImageByteFormat.rawExtendedRgba128:
+        default:
           return '.bmp';
       }
     }();
