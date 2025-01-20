@@ -4,14 +4,14 @@ description: A plugin for device_preview that allows to take screenshots.
 homepage: https://github.com/aloisdeniel/flutter_device_preview/plugins/device_preview_screenshot
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: '>=3.3.0-0 <4.0.0'
+  flutter: ">=3.22.0"
 
 dependencies:
-  device_preview: ^1.0.0
+  device_preview: ^1.2.0
   flutter:
     sdk: flutter
-  path: ^1.8.0
+  path: ^1.9.1
 
 dev_dependencies:
   flutter_test:
